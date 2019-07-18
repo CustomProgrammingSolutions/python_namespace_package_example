@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='example_base',
+    name='greeter_example',
 
     version='1.0.0',
 
