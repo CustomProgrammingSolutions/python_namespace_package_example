@@ -13,6 +13,9 @@ This base package loads them and prints them out''',
 
     author='Janis Lesinskis',
 
-    packages=['greeter_example'],
+    packages=[
+        'greeter_example',
+        'greeter_example.greetings', # Explicitly install the namespace package here
+    ],
     zip_safe=False,
 )
